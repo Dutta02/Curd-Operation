@@ -30,7 +30,7 @@ function Posts() {
         setData(updatedPosts);
       }
     } catch (error) {
-      console.error("Error deleting post:", error);
+      console.error("error", error);
     }
   };
 
@@ -64,12 +64,12 @@ function Posts() {
                   Delete
                 </button>
               </li>
-            );
+            )
           })}
         </ul>
       </section>
     </>
-  );
+  )
 }
 
-export default Posts;
+export default Posts
