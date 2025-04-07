@@ -1,0 +1,32 @@
+.card-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #121b22; 
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .add-button {
+    background-color: #1dd1a1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .add-button:hover {
+    background-color: #10ac84;
+  }
+  
